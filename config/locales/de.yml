@@ -19,31 +19,23 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+de:
   #Home Page
-  title: "To Do List Using i18 Translation"
-  intro: "Hello and welcome to the To Do app. This is just like a Chores list you create at home where you can add a chore and delete it once its done Give it a try!!"
-  create_todo: "Create a Todo"
-  todo_list: "To Do List"
-  home_page: Home
+  hello: "Hallo Welt"
+  title: "Aufgabenliste mit i18-Übersetzung"
+  intro: "Hallo und willkommen in der To Do App. Dies ist wie eine von Ihnen zu Hause erstellte 
+          Aufgabenliste, in der Sie eine Aufgabe hinzufügen und löschen können, 
+          sobald sie erledigt ist. Probieren Sie es aus!"
+  create_todo: "Erstellen Sie eine Todo"
+  todo_list: "Aufgabenliste"
+  home_page: "Startseite"
   #Todo Form Page
-  back_to_index: "Back To Index"
-  new_todo_title: "Create a New Todo"
+  back_to_index: "Zurück zum Index"
+  new_todo_title: "Erstellen Sie einen neuen Todo"
   #Form Placeholder names
-  placeholder_name: "Name of todo"
-  placeholder_description: "Add todo description"
+  placeholder_name: "Name von Todo"
+  placeholder_description: "Beschreibung hinzufügen"
   #Todos List Page
-  new_list: "Create a To Do"
-  todo_name: Name
-  todo_description: Description
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  new_list: "Erstellen Sie ein To Do"
+  todo_name: "Name"
+  todo_description: "Beschreibung"

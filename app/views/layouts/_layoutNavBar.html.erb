@@ -9,14 +9,23 @@
           </button>
           <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-left">
-            <li><%= link_to "Home", root_path %></li>
-            <li><%= link_to "Help", help_path   %></li>
+            <li><%= link_to (t :home_page), root_path %></li>
+            <li><%#= link_to "Help", help_path   %></li>
             <!-- <li class="divider"></li> -->
           </ul>
          
           <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Create a To Do", new_todo_path %></li>
-            <li><%= link_to "To Do List", todos_path %></li>
+            <%= content_tag :li do%>
+              <%= link_to 'Switch to English', locale: :en %>
+            <% end unless current_page?(locale: :en) %>
+
+            <%= content_tag :li do%>
+              <%= link_to 'Zu Deutsch wechseln', locale: :de %>
+            <% end unless current_page?(locale: :de) %>
+
+
+            <li><%= link_to (t :create_todo), new_todo_path %></li>
+            <li><%= link_to (t :todo_list), todos_path %></li>
           </ul> 
           </div>
         </nav>

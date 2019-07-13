@@ -2,16 +2,14 @@
   <div align="center">
   </div>
   <div class="row">
-    <h1 class="text-center">To Do List</h1>
+    <h1 class="text-center"><%= t :todo_list %> </h1>
     <div class="col-md-8 col-md-offset-2">
-        <p>
-          <%= link_to "Create a To Do", new_todo_path, class: "btn btn-success" %>
-        </p>
+        <p><%= link_to (t :create_todo), new_todo_path, class: "btn btn-success" %></p>
           <table class="row">
             <tr>
-              <th>Name</th>
+              <th><%= t :todo_name %></th>
               <th class="spacer">gkdgdkdgklbkLJDGLK</th>
-              <th>Description</th>
+              <th><%= t :todo_description %></th>
             </tr>
             <% @todos.each do |todo| %>
               <tr class ="well profile-black-white-thin row <%= cycle('profile-black-white-thin-b', '') %>"> 
