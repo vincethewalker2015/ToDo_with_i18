@@ -39,3 +39,12 @@ de:
   new_list: "Erstellen Sie ein To Do"
   todo_name: "Name"
   todo_description: "Beschreibung"
+  #Edit Page
+  edit_todo_title: "Bearbeiten Sie Ihre ToDo"
+  #Index Page
+  edit_button: "Bearbeiten"
+  delete_button: "Löschen"
+  view_button: "Aussicht"
+  #Show Page
+  showpage_edit_button: "Bearbeiten Sie diese ToDo"
+  showpage_title: "Meine To Do"
