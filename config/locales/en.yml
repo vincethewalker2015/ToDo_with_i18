@@ -37,6 +37,15 @@ en:
   new_list: "Create a To Do"
   todo_name: Name
   todo_description: Description
+  #Edit Page
+  edit_todo_title: "Edit your To Do"
+  #Index Page
+  edit_button: "Edit"
+  delete_button: "Delete"
+  view_button: "View"
+  #Show Page
+  showpage_edit_button: "Edit This ToDo"
+  showpage_title: "My To Do"
 
 
   
