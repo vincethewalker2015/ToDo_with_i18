@@ -20,6 +20,8 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 de:
+  #NavBar
+  home_page: "Startseite"
   #Home Page
   hello: "Hallo Welt"
   title: "Aufgabenliste mit i18-Übersetzung"
@@ -28,7 +30,7 @@ de:
           sobald sie erledigt ist. Probieren Sie es aus!"
   create_todo: "Erstellen Sie eine Todo"
   todo_list: "Aufgabenliste"
-  home_page: "Startseite"
+  
   #Todo Form Page
   back_to_index: "Zurück zum Index"
   new_todo_title: "Erstellen Sie einen neuen Todo"

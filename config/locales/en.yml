@@ -20,12 +20,13 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  #NavBar
+  home_page: Home
   #Home Page
   title: "To Do List Using i18 Translation"
   intro: "Hello and welcome to the To Do app. This is just like a Chores list you create at home where you can add a chore and delete it once its done Give it a try!!"
   create_todo: "Create a Todo"
   todo_list: "To Do List"
-  home_page: Home
   #Todo Form Page
   back_to_index: "Back To Index"
   new_todo_title: "Create a New Todo"
